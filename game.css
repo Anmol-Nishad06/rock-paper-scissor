@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 70, 242);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.back{
+    width: 1550px;
+    height: 100%;
+    display: flex;
+}
+
+.game{ 
+    margin-top: 40px;
+    width: 500px;
+    /* height: 900px; */
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.background{
+    background-image: url(epsgame/you1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.rps{
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: 3px solid rgb(96, 48, 174);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.rps:hover{
+    border:5px solid rgb(96, 48, 174);
+    transform: scale(1.2);
+}
+
+.score{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* margin-top: 90px; */
+     justify-self: center;
+    align-self: flex-start; 
+    width: 325px;
+    height: 220px;
+    background-image: url(epsgame/pngimg.com\ -\ blackboard_PNG39.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    p{  
+        margin-left: 10px;
+        font-size: x-large;
+        text-align:center;
+        color: white;
+        span{
+            font-size:80px;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;}
+    }
+
+}
+
+.result{
+    margin-top: 400px;
+    /* margin-left: 500px; */
+    justify-self: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    transition: all;
+    transition-duration: 2.5px;
+}
+
+.select{
+    border: 5px solid green;
+}
+
+.bot{
+    display: flex;
+    margin-top: 40px;
+    width: 500px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    justify-self: flex-end;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: steps(3);
+}
+
+.backgroundbot{
+    background-image: url(epsgame/computer.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.random{
+
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: 3px solid purple;
+    background-image: url(epsgame/ChatBot-PNG-Image-HD.png);
+    background-size: contain;
+    
+}
+
+.rock{
+    background-image: url(epsgame/rock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.rockbot{
+    background-image: url(epsgame/rockbot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.paper{
+    background-image: url(epsgame/paper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.paperbot{
+    background-image: url(epsgame/paperbot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.scissor{
+    background-image: url(epsgame/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.scissorbot{
+    background-image: url(epsgame/scessiorbot.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
